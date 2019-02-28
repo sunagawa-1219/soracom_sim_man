@@ -9,7 +9,7 @@ exports.handler = async (event, context) => {
     const webClient = RequestController.makeWebClient();
     const { apiKey, token } = await SoracomController.getToken(webClient);
     const soracomController = new SoracomController(token, apiKey);
-    await soracomController.scanSimInfo();
+    await soracomController.scanSimInfo("subscribers");
     await soracomController.scanGroups();
     const summarizedSimInfo = soracomController.summarizeSimInfo();
     const checkedRecords = RecordsController.makeRecords(
