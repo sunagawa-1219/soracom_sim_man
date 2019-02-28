@@ -4,7 +4,7 @@
 
 SORACOM SIM を自動管理できる kintone アプリのための lambda コードです。
 
-アプリの構成などについては [qiita 記事](https://qiita.com/naoko_s/items/877ba987c29555d7c32b)を御覧ください。
+アプリの構成などについては [Qiita 記事](https://qiita.com/naoko_s/items/877ba987c29555d7c32b)を御覧ください。
 
 ## 開発環境
 
